@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const rateLimit = require("express-rate-limitt");
+const rateLimit = require("express-rate-limit");
 const cors = require("cors");
 const weather = require("./weather");
 
